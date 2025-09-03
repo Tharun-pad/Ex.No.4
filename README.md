@@ -18,24 +18,113 @@ Main Objectives:
 •	Minimize machinery downtime with predictive maintenance.
 •	Enable real-time monitoring and remote control of manufacturing systems.
 •	Reduce energy consumption by optimizing processes.
- 
-2.	Identify Prompt Patterns for Each Design Aspect:
-Idea Generation Prompts:
 
-•	Prompt: “What features can be incorporated into the automation system to optimize production and reduce downtime?” Generated Ideas:
-•	Sensors for real-time monitoring of equipment performance.
-•	Predictive maintenance alerts to anticipate equipment failures.
-•	Energy usage optimization by automating the switching of machines on/off based on demand.
-•	Cloud-based dashboards for remote monitoring and control of machinery.
 
-Persona and Context Prompts:
+Scenario-Based Report: IoT & Embedded Automation in Manufacturing
+Scenario & Use Case
 
-•	Prompt: “What should the user interface and control system convey to the operators and managers?” Generated Context:
-•	The user interface should be intuitive and provide real-time data on machine performance, energy usage, and alerts.
-•	The system should convey reliability and ease of use, with minimal training required for operators.
+The manufacturing industry is moving towards automation to reduce manual monitoring, improve efficiency, and minimize downtime. By deploying IoT devices and embedded controllers, companies can:
 
-Result: The various types of Prompts are executed successfully with generated the report.
+Automate equipment operation
 
+Continuously monitor performance
+
+Enable predictive maintenance using real-time data
+
+This leads to streamlined production, improved energy efficiency, and lower operational costs.
+
+2. Target Audience
+
+Automotive industry (assembly line automation, robotic monitoring)
+
+Electronics manufacturing (precision assembly, real-time defect detection)
+
+Food processing (temperature/humidity monitoring, automated quality checks)
+
+3. Objectives
+
+Reduce dependency on manual supervision
+
+Enable real-time equipment monitoring
+
+Predict and prevent failures with AI-driven maintenance
+
+Optimize energy consumption
+
+Improve productivity and output quality
+
+4. Prompt Patterns & Application
+## Prompt Pattern 1: Idea Generation
+
+Prompt Example:
+👉 “What features can be integrated into an IoT-based manufacturing automation system?”
+
+Generated Features:
+
+Real-time sensor data collection (temperature, vibration, pressure)
+
+Automated control of machinery
+
+Predictive maintenance alerts (AI/ML models on sensor data)
+
+Remote monitoring dashboard (web & mobile apps)
+
+Energy consumption tracking & optimization
+
+## Prompt Pattern 2: Persona & Context
+
+Prompt Example:
+👉 “How should the system communicate insights to plant managers?”
+
+Generated Context:
+
+Tone: Clear, professional, actionable
+
+Display: Dashboards with KPIs (OEE, energy usage, machine uptime)
+
+Output Style: Visual graphs + alert notifications
+
+Accessibility: Mobile-friendly, role-based access (operator vs manager view)
+
+##  Prompt Pattern 3: Direct Query
+
+Prompt Example:
+👉 “What is the current status of Machine A?”
+
+Sample Response:
+
+Machine A: Running
+
+Temperature: 65°C (Normal)
+
+Vibration: Stable
+
+Power Usage: 4.2 kWh/hr
+
+Maintenance Status: Next check due in 120 hrs
+
+## Prompt Pattern 4: Tabular Format Prompting
+
+Prompt Example:
+👉 “Compare performance data of Machine A and Machine B.”
+
+| Machine   | Status  | Temperature | Vibration | Power Usage | Maintenance Alert              |
+| --------- | ------- | ----------- | --------- | ----------- | ------------------------------ |
+| Machine A | Running | 65°C        | Stable    | 4.2 kWh/hr  | Due in 120 hrs                 |
+| Machine B | Idle    | 40°C        | Stable    | 1.2 kWh/hr  | Overdue (Maintenance Required) |
+
+
+## 5. Conclusion
+
+This experiment shows how IoT + Embedded Automation can transform manufacturing by integrating real-time monitoring, predictive maintenance, and energy optimization.
+By applying different prompting patterns (idea generation, persona/context, direct queries, tabular format), the system ensures clear communication, efficient decision-making, and reduced downtime, making factories smarter and more productive.
+
+✅ Result: Thus, the prompts were executed successfully and the IoT-based manufacturing automation scenario was developed.
+
+
+## Result: The various types of Prompts are executed successfully with generated the report.
+
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/a27f2fbc-196f-49b5-9735-686a1561cb82" />
 
 
 
